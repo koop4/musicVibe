@@ -10,10 +10,24 @@
     HELLO THERE
     <button type="button" onclick="playMario()"> Play Mario </button>
 
+    <button type="button" onclick="playStarWars()"> Star Wars </button>
+
+    <button type="button" onclick="playPowerRangers()"> Go Go Power Rangers </button>
+
 </body>
 </html>
 
 <script>
+    function playPowerRangers() {
+        navigator.vibrate([150,150,150,150,75,75,150,150,150,150,450]);
+    }
+
+
+    function playStarWars() {
+        navigator.vibrate([500,110,500,110,450,110,200,110,170,40,450,110,200,110,170,40,500]);
+    }
+
+
     function playMario() {
         navigator.vibrate([125,75,125,275,200,275,125,75,128,275,200,600,200,600]);
     }
