@@ -8,9 +8,13 @@
 </head>
 <body>
     HELLO THERE
+    <button type="button" onclick="playMario()"> Play Mario </button>
+
 </body>
 </html>
 
 <script>
-    navigator.vibrate([125,75,125,275,200,275,125,75,128,275,200,600,200,600]);
+    function playMario() {
+        navigator.vibrate([125,75,125,275,200,275,125,75,128,275,200,600,200,600]);
+    }
 </script>
