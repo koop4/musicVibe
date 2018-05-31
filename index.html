@@ -7,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    HELLO THERE
-    <button type="button" onclick="playMario()"> Play Mario </button>
+    <button type="button" onclick="playMario()"> Play Mario </button><br>
 
-    <button type="button" onclick="playStarWars()"> Star Wars </button>
+    <button type="button" onclick="playStarWars()"> Star Wars </button><br>
 
-    <button type="button" onclick="playPowerRangers()"> Go Go Power Rangers </button>
+    <button type="button" onclick="playPowerRangers()"> Go Go Power Rangers </button><br>
+
+    <button type="button" onclick="playMK()"> Mortal Kombat </button><br>
+    
+    <button type="button" onclick="playFF()"> Final Fantasy Fanfare </button><br>
 
 </body>
 </html>
@@ -20,6 +23,14 @@
 <script>
     function playPowerRangers() {
         navigator.vibrate([150,150,150,150,75,75,150,150,150,150,450]);
+    }
+
+    function playMK() {
+        navigator.vibrate([100,200,100,200,100,200,100,200,100,100,100,100,100,200,100,200,100,200,100,200,100,100,100,100,100,200,100,200,100,200,100,200,100,100,100,100,100,100,100,100,100,100,50,50,100,800]);
+    }
+
+    function playFF() {
+        navigator.vibrate([50,100,50,100,50,100,400,100,300,100,350,50,200,100,100,50,600]);
     }
 
 
