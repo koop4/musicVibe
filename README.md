@@ -1,4 +1,4 @@
-# musicVibe
+# MusicVibe
 
 A boring afternoon has been transformed to a fun experience thanks to the [Navigator Vibrate API](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/vibrate).
 
